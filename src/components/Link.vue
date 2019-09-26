@@ -32,10 +32,30 @@ export default {
     z-index:2;
     bottom: 100px;
     left: 100px;
+    z-index:2;
 }
 
 .body{
     z-index:1;
+    position: relative;
     top: 300px;
+}
+
+.arm-left{
+    z-index:2;
+    position: relative;
+    top: 45px;
+}
+
+.arm-right{
+    z-index:2;
+}
+
+.foot-left{
+    z-index:2;
+}
+
+.foot-right{
+    z-index:2;
 }
 </style>
